@@ -9,6 +9,10 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    @IBOutlet weak var phraseLBL:UILabel!
+    @IBAction func clickMe(sender:UIButton){
+        phraseLBL.text = "Is it worked??"
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
